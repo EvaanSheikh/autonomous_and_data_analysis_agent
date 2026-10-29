@@ -1,0 +1,46 @@
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Generated files
+reports/*
+!reports/.gitkeep
+
+# Uploaded datasets
+data/uploads/
+
+# OS
+.DS_Store
+Thumbs.db
+.venv/
+venv/
+node_modules/
+__pycache__/
+.env
+.env.*
+!.env.example
+.next/
+dist/
+build/
+# Local databases
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Large local datasets
+data/*.csv
+!data/sample/sales.csv
+
+# Large stress-test datasets
+data/test/*.csv

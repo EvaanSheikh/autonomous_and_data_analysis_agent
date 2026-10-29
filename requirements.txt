@@ -1,0 +1,11 @@
+﻿fastapi
+uvicorn
+pydantic
+pandas
+openpyxl
+python-dotenv
+python-multipart
+langgraph
+google-genai
+matplotlib
+requests
